@@ -940,7 +940,7 @@ footer .copyrights {
 .article_page {
   padding: 200px 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 1450px) {
   .article_page {
     padding: 48px 0;
   }
