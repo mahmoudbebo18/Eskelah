@@ -385,7 +385,7 @@ body {
 .services {
     padding: 76px 0 97px;
 
-    @media(max-width:991px) {
+    @media(max-width:1400px) {
         padding: 64px 0;
     }
 }
@@ -476,10 +476,10 @@ body {
 /*products*/
 
 .products {
-    padding: 76px 0 97px;
+    padding: 0 0 97px;
 
-    @media(max-width:991px) {
-        padding: 64px 0;
+    @media(max-width:1400px) {
+        padding: 0 0 64px 0;
     }
 
     @media(max-width:991px) {
@@ -525,6 +525,11 @@ body {
                     width: auto;
                     display: none;
                     transition: .3s all ease-in-out;
+                    @media(max-width:1400px) {
+                        left: 24px;
+                        bottom: auto;
+                        top: 24px;
+                    }
                 }
 
                 &:hover {
@@ -559,7 +564,7 @@ body {
 .why_us {
     padding-bottom: 100px;
 
-    @media(max-width:991px) {
+    @media(max-width:1400px) {
         padding-bottom: 64px;
 
     }
@@ -765,7 +770,7 @@ body {
 .articles {
     padding-bottom: 120px;
 
-    @media(max-width:991px) {
+    @media(max-width:1400px) {
         padding-bottom: 64px;
     }
 
@@ -987,7 +992,9 @@ footer {
 
 .article_page {
     padding: 200px 0;
-
+@media(max-width:767px){
+    padding: 48px  0;
+}
     .articles_data {
         flex-wrap: wrap;
 
