@@ -149,7 +149,7 @@ body {
 }
 .product .product_desc h4 {
   font-size: 2rem;
-  margin-bottom: 6px;
+  margin-bottom: 0;
   line-height: 42px;
   color: #FEE000;
   font-family: "IBM Plex Sans", sans-serif;
@@ -365,7 +365,7 @@ body {
 }
 @media (max-width: 1400px) {
   .services {
-    padding: 64px 0;
+    padding: 44px 0;
   }
 }
 
